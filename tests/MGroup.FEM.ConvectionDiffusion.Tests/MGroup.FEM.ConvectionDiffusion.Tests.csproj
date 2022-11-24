@@ -29,7 +29,12 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="ExampleModels\" />
-	  <Folder Include="Integration\" />
+	  <Folder Include="Commons\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\..\src\FEM\src\MGroup.FEM.ConvectionDiffusion\MGroup.FEM.ConvectionDiffusion.csproj" />
+	  <ProjectReference Include="..\..\src\NumericalAnalyzers\src\MGroup.NumericalAnalyzers.Discretization\MGroup.NumericalAnalyzers.Discretization.csproj" />
+	  <ProjectReference Include="..\..\src\Solvers\src\MGroup.Solvers\MGroup.Solvers.csproj" />
 	</ItemGroup>
 
 </Project>
